@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, BarChart, Globe, Layers, MessageCircle, PenTool, Search } from 'lucide-react';
+import { MousePointerClick, Megaphone, Handshake, Facebook, BarChart, Globe, Layers, MessageCircle, PenTool, Search } from 'lucide-react';
 import '../styles/Services.css';
 
 const Services = () => {
@@ -10,9 +10,9 @@ const Services = () => {
       description: 'Improve visibility online and drive more organic traffic with our data-driven SEO strategies.'
     },
     {
-      icon: <BarChart size={48}/>,
-      title: 'Data Analytics',
-      description: 'Transform raw data into actionable insights that drive strategic decisions and marketing optimization.'
+      icon: <MousePointerClick size={48}/>,
+      title: 'Google Ads',
+      description: 'Maximize your reach and ROI with Google Ads—targeted, data-driven, and designed to put your brand in front of the right audience at the right time!'
     },
     {
       icon: <MessageCircle size={48} />,
@@ -25,14 +25,14 @@ const Services = () => {
       description: 'Craft compelling content that tells your story, engages your audience, and drives conversions.'
     },
     {
-      icon: <Layers size={48} />,
-      title: 'Brand Strategy',
-      description: 'Develop a cohesive brand identity and strategy that resonates with your target market and sets you apart.'
+      icon: <Megaphone size={48} />,
+      title: 'PR',
+      description: 'Build trust, shape perceptions, and amplify your brand with powerful PR—strategic storytelling that keeps you in the spotlight!'
     },
     {
-      icon: <Globe size={48} />,
-      title: 'Web Development',
-      description: 'Create stunning, responsive websites that deliver exceptional user experiences and drive business growth.'
+      icon: <Handshake size={48} />,
+      title: 'Communication',
+      description: "Boost your brand's voice with seamless, strategic communication—engaging, persuasive, and built to convert!"
     },
   ];
 

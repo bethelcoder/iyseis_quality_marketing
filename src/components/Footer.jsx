@@ -32,7 +32,7 @@ const Footer = () => {
               <h4>Services</h4>
               <ul>
                 <li><a href="#services">SEO</a></li>
-                <li><a href="#services">Data Analytics</a></li>
+                <li><a href="#services">Google Ads</a></li>
                 <li><a href="#services">Social Media</a></li>
                 <li><a href="#services">Content Creation</a></li>
               </ul>

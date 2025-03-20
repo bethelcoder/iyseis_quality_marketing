@@ -49,9 +49,9 @@ const Contact = () => {
             important to us as we strive to provide exceptional service to our
             university community</p> */}
             <ul>
-                <li><Mail size={24} className='contact-icon'/>contact@swyft-technologies.com</li>
-                <li><Phone size={24} className='contact-icon'/>072-368-9865</li>
-                <li><MapPin size={24} className='contact-icon'/>179 Waterbok Street, Pretoria West<br/> Pretoria 0813, South Africa</li>
+                <li><Mail size={24} className='contact-icon'/>iyseisquality@gmail.com</li>
+                <li><Phone size={24} className='contact-icon'/></li>
+                <li><MapPin size={24} className='contact-icon'/></li>
             </ul>
 
         </div>
