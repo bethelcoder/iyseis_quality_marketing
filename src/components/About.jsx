@@ -4,13 +4,13 @@ import '../styles/About.css';
 
 const About = () => {
   const advantages = [
-    "Data-driven strategies for measurable results",
-    "Creative solutions tailored to your brand",
-    "Transparent communication and reporting",
-    "Cross-platform marketing expertise",
-    "Dedicated team of marketing specialists",
-    "Continuous optimization and improvement"
-  ];
+    "Personalized attention and client-focused strategies",
+    "Agility and flexibility in adapting to trends",
+    "Cost-effective marketing solutions for growing businesses",
+    "Hands-on approach with direct involvement in campaigns",
+    "Innovative, trend-driven strategies for modern marketing",
+    "Transparent communication and continuous optimization"
+];
 
   return (
     <section id="about" className="about">
@@ -21,13 +21,15 @@ const About = () => {
               Why Choose <span className="highlight">Iyseis Quality Marketing</span>
             </h2>
             <p className="about-description">
-              At Iyseis Quality Marketing, we're more than just a digital marketing agency. We're your strategic 
-              partner dedicated to elevating your brand through thoughtful strategy, innovative execution, and 
-              measurable results.
+              At Iyseis Quality Marketing, we’re more than just a digital marketing agency—we’re
+               a dedicated partner committed to helping brands establish a strong online presence.
+                As a <b>newly</b> founded company, we bring fresh ideas, adaptability, and a results-driven
+                 approach to every project. Our mission is to connect businesses with their audience through 
+                 strategic marketing, creative storytelling, and data-driven insights that drive real growth.
             </p>
             <p className="about-description">
-              Our approach combines cutting-edge technology with creative excellence to deliver marketing solutions 
-              that not only reach your target audience but truly resonate with them.
+            At Iyseis Quality Marketing, we believe that every brand has a story worth telling, and we’re here
+             to help you tell yours in the most compelling way.
             </p>
             
             <div className="advantages-grid">
