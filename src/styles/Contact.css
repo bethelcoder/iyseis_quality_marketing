@@ -83,3 +83,10 @@
         margin-bottom: 20px;
     }
 }
+@media (max-width: 470px){
+    .contact form button {
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 0rem;
+      }
+}
