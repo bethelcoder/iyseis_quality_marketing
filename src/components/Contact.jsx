@@ -36,12 +36,14 @@ const Contact = () => {
   };
 
   return (
-    <section className='contact-container' style={{paddingTop:5 + 'rem'}}>
-      <h2 className='section-title service-h2'>Get In Touch</h2>
+    <section id='contact' className='contact-container' style={{paddingTop:5 + 'rem'}}>
+      <div className="section-header">
+      <h2 className='section-title'>Get In Touch</h2>
       <div className='title-underline'></div>
       <p className="section-description">
       Ready to elevate your brand? Let's start a conversation about your marketing needs.
           </p>
+      </div>
       <section className='contact'>
         <div className='contact-col' role='section'>
             {/* <p>Feel free to reach out through contact form or find our contact
@@ -51,7 +53,7 @@ const Contact = () => {
             <ul>
                 <li><Mail size={24} className='contact-icon'/>iyseisquality@gmail.com</li>
                 <li><Phone size={24} className='contact-icon'/></li>
-                <li><MapPin size={24} className='contact-icon'/></li>
+                <li><MapPin size={24} className='contact-icon'/>South Africa, Digitally</li>
             </ul>
 
         </div>

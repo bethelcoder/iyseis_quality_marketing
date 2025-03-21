@@ -5,6 +5,7 @@
     /* align-items: center; */
     justify-content: space-between;
     background-color: var(--neutral-50);
+    
 }
 .contact-col {
     flex-basis: 48%;
@@ -14,8 +15,9 @@
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
+
 .contact:first-child{
-    height: 20vh;
+    height: 10vh;
 }
 .contact-col h3{
     color:  #000F38;
@@ -72,11 +74,12 @@
     margin: 20px 0;
 }
 /* ------ mdeia query ------ */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .contact{
         display: block;
     }
     .contact-col{
         padding: 20px;
+        margin-bottom: 20px;
     }
 }

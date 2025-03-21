@@ -25,21 +25,6 @@ const Hero = () => {
         <section className='right-sec'>
             <img src={hero_image} alt='Hero Image' className='hero-Img'/>
         </section>
-
-        {/* <section className={`hero-text ${isVisible ? 'visible' : ''}`}>
-          <span className="hero-tag">Premier Digital Marketing Agency</span>
-          <h1 className="hero-title">
-            Transform Your Brand With <span className="hero-highlight">Quality Marketing</span>
-          </h1>
-          <p className="hero-description">
-            We blend creative strategy with data-driven insights to deliver exceptional 
-            marketing solutions that elevate your brand and drive measurable results.
-          </p>
-          <section className="hero-buttons">
-            <a href="#contact" className="btn btn-primary">Get Started</a>
-            <a href="#services" className="btn btn-secondary">Our Services</a>
-          </section>
-        </section> */}
       </section>
       <section className="hero-background">
         <div className="blur-bubble bubble-1"></div>

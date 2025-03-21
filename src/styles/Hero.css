@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     padding-top: 15rem;
+    justify-content: center;
     overflow: hidden;
     background: linear-gradient(135deg, var(--neutral-50) 0%, var(--primary-50) 100%);
   }
@@ -79,12 +80,14 @@
     }
   }
   
+    
+/*-------------Media Queries-------------*/
+
   @media (max-width: 992px) {
     .hero{
       max-height: 300vh;
-    }
-    .hero-content{
-      /* margin-left: 50px; */
+      justify-content: center;
+      align-items: center;
     }
     .hero-Img{
       display: none;
@@ -98,7 +101,7 @@
     text-align: center;
    }
    .CTA{
-    transform: translateX(20%);
+    transform: translateX(15%);
    }
    /* .CTA .btn-secondary{
     display: none;
@@ -107,7 +110,7 @@
   
   @media (max-width: 768px) {
     .hero{
-      
+      justify-content: center;
     }
     .headline {
       font-size: 2.3rem;
@@ -123,11 +126,7 @@
    .CTA:last-child{
     margin-bottom: 0px;
    }
-    .hero-buttons {
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-    }
+    
     
     .btn {
       width: 80%;
@@ -136,20 +135,52 @@
   
   @media (max-width: 576px) {
     .hero{
-      padding-top: 0;
+      padding-top: 150px;
       max-height: 90vh;
+      justify-content: center;
+      align-items: center;
     }
+    .headline {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 1.4rem;
+    }
+    .subheadline{
+      font-size: 0.8rem;
+    }
+    .btn {
+      width: 70%;
+    }
+    .CTA{
+      transform: translateX(15%);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 470px) {
+    .hero{
+      padding-top: 150px;
+      max-height: 80vh;
+      justify-content: center;
+    }
+    
     .headline {
       text-align: center;
       margin-bottom: 50px;
       font-size: 1.3rem;
     }
-    
-    .btn {
-      width: 80%;
+    .subheadline{
+      font-size: .7rem;
     }
+    /* .btn {
+      width: 60%;
+    } */
     .CTA{
-      transform: translateX(6%);
+      transform: translateX(10%);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
      }
   }
   
