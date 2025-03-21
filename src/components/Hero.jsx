@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from "react-scroll";
 import '../styles/Hero.css';
 import hero_image from '../assets/hero_pic.png'
 const Hero = () => {
@@ -18,8 +19,12 @@ const Hero = () => {
                     and content marketing. 
                     Let’s take your<br/> brand to the next level.</p>
                 <section className='CTA'>
+                  <Link to="contact" smooth={true} duration={200}>
                     <button className='btn btn-primary'>Get a Free Consultation</button>
+                  </Link>
+                  <Link to="services" smooth={true} duration={200}>
                     <button className='btn btn-secondary'>See Our Work</button>
+                  </Link>
                 </section>
             </section>
         <section className='right-sec'>

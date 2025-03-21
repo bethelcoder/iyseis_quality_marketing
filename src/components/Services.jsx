@@ -1,4 +1,5 @@
 import React from 'react';
+import Hero from './Hero';
 import { MousePointerClick, Megaphone, Handshake, Facebook, BarChart, Globe, Layers, MessageCircle, PenTool, Search } from 'lucide-react';
 import '../styles/Services.css';
 
